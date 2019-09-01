@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.ElectronicsActivity">
+
+    <Button
+        android:id="@+id/btTv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="TV"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btFridge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="FRIDGE"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="62dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/btTv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btWash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WASHING MACHINE"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="124dp"
+        android:layout_below="@+id/btAC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/btComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPUTER"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/btFridge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="250dp"
+        android:layout_below="@+id/btComp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btMusic"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="MUSIC SYSTEM"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="377dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btWash"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="358dp"
+        android:layout_height="42dp"
+        android:text="DONE"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="465dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btTv"
+        android:layout_alignEnd="@+id/btTv"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

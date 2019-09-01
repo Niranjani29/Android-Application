@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.KitchenActivity">
+
+    <Button
+        android:id="@+id/btUtensils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UTENSILS"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="63dp"
+        android:layout_alignTop="@+id/btMicrowave"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAS"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:layout_below="@+id/btKitchen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/btKitchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kitchen Rack"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="141dp"
+        android:layout_below="@+id/btUtensils"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+
+    <Button
+        android:id="@+id/btMicrowave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MICROWAVE"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="423dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeus"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp">
+    </item>
+
+  /<item
+        android:id="@+id/contactus"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contacts_black_24dp" />
+
+    <item
+        android:id="@+id/findus"
+        android:title="Find Us"
+        android:icon="@drawable/ic_location_on_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_feedback_black_24dp">
+    </item>
+
+
+</menu>

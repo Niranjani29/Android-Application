@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke android:color="@color/common_google_signin_btn_text_light"
+        android:width="2dp"></stroke>
+    <solid android:color="@color/common_google_signin_btn_text_light"></solid>
+        <size android:width="120dp"
+            android:height="120dp"></size>
+</shape>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.AboutUs_Activity">
+
+
+    <TextView
+        android:id="@+id/tvUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvUs"
+        android:layout_marginTop="188dp"
+        android:layout_x="1dp"
+        android:layout_y="33dp"
+        android:text="Pavitra Packaging is owned by Mr.Dnyandeo Phalke and Mr.Sahebrao Aware in partnership.Majorly the industry is handled by Mr.Dyandeo Phalke. Established in 2008 with 2000 sqft company area at Talawade near Pune city near the IT Hub Hinjewadi the upcoming high end office and residential projects.We are purely in alliance with packaging companies all over Pune.Deals in Office Shifting,House Shifting and Other Shiftings. We have knowledgeable team with 6 years of experience in this field. We have a special relationship executive to visit on the sites to provide the total turn and key project concepts. Pavitra Packaging is owned by mr.Dnyandeo phalke who is a enterprener in pune city regarding packaging industry. He has knowledge and experience in this field and has massive, well co-ordinated team."
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+
+</AbsoluteLayout>

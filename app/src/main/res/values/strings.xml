@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pavitra Packaging</string>
+
+    <string name="Open">Pavitra Packaging</string>
+    <string name="Close">Pavitra Packaging</string>
+
+    <string name="title_activity_shifting">ShiftingActivity</string>
+    <string name="large_text"><string name="about_us">ABOUT US</string></string>
+
+    <string name="about_us">ABOUT US</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">settings</string>
+
+
+</resources>
+

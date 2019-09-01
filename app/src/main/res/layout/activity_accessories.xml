@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.AccessoriesActivity">
+
+    <Button
+        android:id="@+id/btFlower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLOWER POTS"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btClothes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btPainting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAINTINGS/FRAMES"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="85dp"
+        android:layout_below="@+id/btMat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btClothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLOTHES"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btPainting"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btBedding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEDDING"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MATTRESS"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="283dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/btBedding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp" />
+
+
+</RelativeLayout>

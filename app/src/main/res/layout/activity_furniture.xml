@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.FurnitureActivity">
+
+    <Button android:id="@+id/btSofa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sofa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/btBed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bed"
+        android:layout_below="@+id/btSofa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"/>
+
+    <Button android:id="@+id/btDinning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinning Table"
+        android:layout_below="@+id/btChair"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+    <Button android:id="@+id/btShowcase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Showcase"
+        android:layout_below="@+id/btShoerack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+    <Button android:id="@+id/btTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/btBed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button android:id="@+id/btChair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chair"
+        android:layout_below="@+id/btTable"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+    <Button android:id="@+id/btShoerack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shoerack"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/btDinning"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Done"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/btDone"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="" />
+
+
+</RelativeLayout>

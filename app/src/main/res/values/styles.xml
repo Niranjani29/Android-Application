@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:color">@color/primary_dark_material_dark_1</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark_1</item>
+        <item name="colorAccent">@color/primary_dark_material_dark_1</item>
+        <item name="colorPrimary">@color/common_google_signin_btn_text_dark_focused</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"></style>
+
+    <style name="pavitra" parent="Theme.AppCompat" >
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark_1</item>
+        <item name="android:colorBackground">@color/primary_dark_material_dark_1</item>
+        <item name="colorPrimary">@color/primary_dark_material_dark_1</item>
+        <item name="colorAccent">@color/common_google_signin_btn_text_dark_focused</item>
+    </style>
+</resources>

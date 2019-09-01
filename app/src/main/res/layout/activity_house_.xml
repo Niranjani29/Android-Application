@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1"
+    tools:context="com.example.admin.pavitrapackaging.House_Activity">
+
+    <Button
+        android:id="@+id/btElectronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="116dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btFurniture"
+        android:layout_alignLeft="@+id/btFurniture"
+        android:layout_alignStart="@+id/btFurniture" />
+
+
+    <Button
+        android:id="@+id/btKitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitchen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteX="53dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/circle_button"
+        android:layout_alignBaseline="@+id/btFurniture"
+        android:layout_alignBottom="@+id/btFurniture"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp" />
+
+    <Button
+        android:id="@+id/btFurniture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Furniture"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="41dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btAccessories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="277dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/circle_button"
+        android:layout_alignBaseline="@+id/btElectronics"
+        android:layout_alignBottom="@+id/btElectronics"
+        android:layout_alignLeft="@+id/btKitchen"
+        android:layout_alignStart="@+id/btKitchen" />
+
+    <Button
+        android:id="@+id/btMiscellaneous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="398dp"
+        android:background="@drawable/circle_button"
+        android:text="Miscellaneous"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="357dp"
+        android:layout_below="@+id/btElectronics"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp" />
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
